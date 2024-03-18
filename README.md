@@ -3,13 +3,19 @@
 
 Automatically adds repository size to GitHub's repository summary.
 
-[![Featured on Product Hunt](./product-hunt.png)](https://www.producthunt.com/tech/github-repository-size) [![Install from chrome web store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci)
+[![Featured on Product Hunt](./product-hunt.png)](https://www.producthunt.com/tech/github-repository-size) 
 
 
 ## Screenshot
 
 ![Screenshot of repository size on GitHub](https://raw.githubusercontent.com/harshjv/github-repo-size/master/screenshot.png)
 
+## Installation
+
+1. Clone this repo
+2. Go to chrome extensions [chrome://extensions](chrome://extensions)
+3. Enable developer mode
+4. Click on load unpacked extension and select this cloned repo
 
 ## Private Repository
 
@@ -30,14 +36,6 @@ You can set `x-github-token` in `localStorage` to your access token, and the ext
 and then remove it to use previously set token;
 
     localStorage.removeItem('x-github-token')
-
-
-## Development
-
-1. Clone this repo
-2. Go to chrome extensions [chrome://extensions](chrome://extensions)
-3. Enable developer mode
-4. Click on load unpacked extension and select this cloned repo
 
 
 ## License
