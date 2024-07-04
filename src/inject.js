@@ -148,7 +148,7 @@ const checkForRepoPage = async () => {
   const rows = [...document.querySelectorAll('tr.react-directory-row')]
 
   rows.forEach((row) => {
-    const fileNameEl = row.querySelector('h3')
+    const fileNameEl = row.querySelector('a')
     const filename = getFileName(fileNameEl.textContent)
     const t = sizeObj[filename]
 
